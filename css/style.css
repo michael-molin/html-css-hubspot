@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
 
 .clearfix::after{
@@ -9,6 +10,8 @@
     display:table;
     clear:both;
 }
+
+
 /* ---------------------------------------------------- */
 /* NAVBAR FIXED */
 .nav-fixed-maxwidth {
@@ -23,7 +26,7 @@
 .nav-fixed {
     max-width: 1200px;
     margin:0 auto;
-    width: 80%;
+    width: 75%;
     display: inline-block;
     /* DA CANCELLARE */
     height: 74px;
@@ -54,9 +57,10 @@
 nav {
     max-width: 1200px;
     margin: 75px auto 0;
-    width: 80%;
-    /* DA CANCELLARE */
-    height: 74px;
+    width:75%;
+    padding: 25px 0;
+    vertical-align: center;
+    line-height: 26px;
 }
 
 .nav-logo {
@@ -69,7 +73,14 @@ nav {
 
 .nav-menu ul li {
     display: inline;
+    padding: 25px;
 }
+
+.nav-menu a {
+    color: black;
+    font-weight: bold;
+}
+
 /* ---------------------------------------------------- */
 /* FINE NAV */
 /* ---------------------------------------------------- */
@@ -80,20 +91,30 @@ nav {
 
 .barra-blu {
     max-width: 1200px;
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 22px;
 }
 
 .barra-blu-testo {
     float: left;
     color: white;
     width: 80%;
+    font-size: 16px;
 }
 
 .barra-blu-btn {
-    float: right;
+     float: right;
+}
 
+#learn {
+    background-color: white;
+    padding: 12px 30px;
+    border-radius: 2px;
+    border: 1px solid white;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
 }
 /* ---------------------------------------------------- */
 /* FINE BARRA BLU */
@@ -107,7 +128,7 @@ nav {
 main {
     max-width: 1200px;
     margin: 0 auto;
-    width: 80%;
+    width: 75%;
     position: relative;
     /* DA CANCELLARE */
     height: 611px;
@@ -147,7 +168,7 @@ main {
 .barra-acqua {
     max-width: 1200px;
     margin: 0 auto;
-    width: 80%;
+    width: 75%;
     /* DA CANCELLARE */
     height: 885px;
 }
@@ -155,7 +176,7 @@ main {
 .scheda-bot {
     max-width: 1200px;
     margin: 0 auto;
-    width: 80%;
+    width: 75%;
     /* DA CANCELLARE */
     height: 662px;
 }
@@ -167,7 +188,12 @@ main {
 footer {
     max-width: 1200px;
     margin: 0 auto;
-    width: 80%;
+    width: 75%;
     /* DA CANCELLARE */
     height: 658px;
+}
+
+
+a {
+    text-decoration: none;
 }
