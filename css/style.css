@@ -94,6 +94,7 @@ nav {
     width: 75%;
     margin: 0 auto;
     padding: 22px;
+    line-height: 22px;
 }
 
 .barra-blu-testo {
@@ -105,6 +106,7 @@ nav {
 
 .barra-blu-btn {
      float: right;
+     margin-right: 15px;
 }
 
 #learn {
@@ -139,12 +141,37 @@ main {
     position: absolute;
     left:0;
     top:50%;
+    transform: translateY(-50%);
 }
 
 .main-bloccosx h1 {
     font-size: 55px;
+    line-height: 65px;
+    margin-bottom: 27.5px;
+    font-weight: 700;
 }
 
+.main-bloccosx p {
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+#get-free {
+    padding: 26px 48px;
+    background-color: #ff7a59;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 1px solid;
+    margin-bottom: 24px;
+    display: block;
+}
+
+.testo-small {
+    font-size: 12px;
+    line-height: 18px;
+    max-width: 224px;
+}
 /* ---------------------------------------------------- */
 /* FINE MAIN */
 .barra-verde-maxwidth {
