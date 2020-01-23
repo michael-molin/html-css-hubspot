@@ -10,9 +10,11 @@
     clear:both;
 }
 
+/* ---------------------------------------------------- */
+/* NAVBAR FIXED */
+
 .nav-fixed-maxwidth {
     background-color: #f5f8fa;
-    margin:0 auto;
     width: 100%;
     position: fixed;
     top:0;
@@ -24,9 +26,34 @@
     max-width: 1200px;
     margin:0 auto;
     width: 80%;
+    display: inline-block;
     /* DA CANCELLARE */
     height: 74px;
 }
+
+.nav-fixed-left {
+    float:left;
+    /* DA CANCELLARE */
+    height: 25px;
+    width: 50px;
+    background-color: red;
+    z-index:1;
+
+}
+
+.nav-fixed-right {
+    float:right;
+    /* DA CANCELLARE */
+    height: 25px;
+    width: 50px;
+    background-color: red;
+    z-index:1;
+}
+
+/* ---------------------------------------------------- */
+/* FINE NAVBAR FIXED */
+/* ---------------------------------------------------- */
+/* INIZIO NAV */
 
 nav {
     max-width: 1200px;
@@ -36,18 +63,47 @@ nav {
     height: 74px;
 }
 
+.nav-logo {
+    float:left;
+}
+
+.nav-menu {
+    float:right;
+}
+
+.nav-menu ul li {
+    display: inline;
+}
+
+/* ---------------------------------------------------- */
+/* FINE NAV */
+/* ---------------------------------------------------- */
+/* INIZIO BARRA BLU */
+
 .barra-blu-maxwidth {
     background-color: #425b76;
 }
 
 .barra-blu {
     max-width: 1200px;
-    margin: 0 auto;
     width: 80%;
-    /* DA CANCELLARE */
-    height: 92px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
+.barra-blu-testo {
+    float: left;
+    color: white;
+    width: 80%;
+}
+
+.barra-blu-btn {
+    float: right;
+
+}
+
+/* ---------------------------------------------------- */
+/* FINE BARRA BLU */
 .main-maxwidth {
     background-color: #fff3ee;
     border-bottom: 3px solid #33475c;
