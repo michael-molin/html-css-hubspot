@@ -12,6 +12,12 @@
 
 .nav-fixed-maxwidth {
     background-color: #f5f8fa;
+    margin:0 auto;
+    width: 100%;
+    position: fixed;
+    top:0;
+    /* DA CANCELLARE */
+    height: 74px;
 }
 
 .nav-fixed {
@@ -24,7 +30,7 @@
 
 nav {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 75px auto 0;
     width: 80%;
     /* DA CANCELLARE */
     height: 74px;
