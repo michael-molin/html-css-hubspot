@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
 }
 
 .clearfix::after{
@@ -11,14 +13,21 @@
     clear:both;
 }
 
+/* .icona::after {
+    content: "";
+    display: inline-block;
+    color: black;
+} */
 
 /* ---------------------------------------------------- */
 /* NAVBAR FIXED */
 .nav-fixed-maxwidth {
     background-color: #f5f8fa;
-    width: 100%;
     position: fixed;
     top:0;
+    right:0;
+    bottom: 0;
+    left:0;
     /* DA CANCELLARE */
     height: 74px;
 }
@@ -27,7 +36,6 @@
     max-width: 1200px;
     margin:0 auto;
     width: 75%;
-    display: inline-block;
     /* DA CANCELLARE */
     height: 74px;
 }
@@ -173,21 +181,137 @@ main {
     max-width: 224px;
 }
 /* ---------------------------------------------------- */
-/* FINE MAIN */
+/*INIZIO BARRA VERDE */
 .barra-verde-maxwidth {
     background-color: #7edfd3;
     border-bottom: 3px solid #33475c;
     height: 78px;
 }
-
+/* ---------------------------------------------------- */
+/* FINE BARRA VERDE */
+/* ---------------------------------------------------- */
+/* INIZIO SCHEDE */
+.schede-maxwidth {
+    background-color: #f5f8fa;
+}
 .schede {
     max-width: 1200px;
     margin: 0 auto;
     width: 70%;
+    padding: 100px 0 50px;
+    text-align: center;
     /* DA CANCELLARE */
     height: 1520px;
 }
+.scheda-top {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+    padding-bottom: 50px;
+}
 
+.scheda-top img {
+    max-width: 260px;
+}
+
+.scheda-top h2 {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 36px;
+    line-height: 42px;
+}
+
+.scheda-CRM {
+    max-width: 960px;
+    background-color: white;
+    padding:32px;
+    display: inline-block;
+    text-align: left;
+}
+
+.crm-img-btn{
+    text-align: center;
+    display: inline-block;
+    padding: 0 80px;
+}
+
+.crm-img-btn img {
+    height: 150px;
+    display: block;
+    padding-bottom: 20px;
+}
+
+#crm {
+    padding: 12px 24px;
+    color: white;
+    background-color: #ff7a59;
+    font-size: 14px;
+    border-radius: 3px;
+    border-color: white;
+    cursor: pointer;
+}
+
+.crm-testo {
+    vertical-align: top;
+    display: inline-block;
+    width: 50%;
+    line-height: 26px;
+}
+
+.crm-testo h4 {
+    font-size: 22px;
+    margin: 11px 0;
+    text-align: left;
+    font-weight: bold;
+}
+
+.crm-testo p {
+    margin: 14px 0;
+    line-height: 22.75px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#popular {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 21px;
+    margin: 26px 0 15px 0;
+    position: relative;
+}
+
+#popular::after {
+    content: "";
+    position:absolute;
+    height: 5px;
+    margin-left: 10px;
+    border-bottom: 1px solid black;
+    top: 6px;
+    width: 100%;
+}
+
+.crm-testo ul {
+    list-style: none;
+}
+
+.crm-testo li {
+    float: left;
+    margin: 0 20px 5px 0;
+}
+
+.crm-testo li::before {
+    content: "";
+    background-image: url(https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg);
+    height: 18px;
+    width: 18px;
+    display: inline-block;
+    margin-bottom: -5px;
+    margin-right: 10px;
+}
+
+
+/* ---------------------------------------------------- */
+/* FINE SCHEDE */
 .barra-acqua-maxwidth {
     background-color: #00b1b1;
 }
