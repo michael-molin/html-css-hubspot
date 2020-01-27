@@ -83,6 +83,7 @@ a {
 .fa-search {
     color:#00a4bd;
     padding-right: 30px;
+    cursor: pointer;
 }
 
 .btn-top {
@@ -450,9 +451,8 @@ main {
     width: 220px;
     max-width: 25%;
     display: inline-block;
-    text-align: center;
     padding: 30px;
-    border-right: 2px solid white;
+    border-right: solid white;
 }
 
 .griglia-img {
